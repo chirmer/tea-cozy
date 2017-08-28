@@ -101,6 +101,7 @@ footer {
 .location {
   margin: 15px 20px;
   max-width: 300px;
+  min-width: 295px;
 }
 
 /* ---------- IDs ---------- */
@@ -123,7 +124,7 @@ footer {
 
 #location {
   background-image: url("img/img-locations-background.jpg");
-  height: 500px;
+  min-height: 500px;
 }
 
 #copyright {
