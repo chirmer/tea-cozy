@@ -29,6 +29,10 @@ h1, h2, h4 {
   padding: 0;
 }
 
+footer {
+  height: 200px;
+}
+
 /* ---------- Classes ---------- */
 
 .seashell {
@@ -93,6 +97,11 @@ h1, h2, h4 {
   margin: 20px 15px 0 15px;
 }
 
+.location {
+  margin: 15px 20px;
+  max-width: 300px;
+}
+
 /* ---------- IDs ---------- */
 
 #logo {
@@ -103,12 +112,19 @@ h1, h2, h4 {
 #mission {
   background-image: url("img/img-mission-background.jpg");
   height: 700px;
+  margin-top: 70px;
 }
 
 #featured {
-  width: 1000px;
+  max-width: 1000px;
 }
 
 #location {
+  background-image: url("img/img-locations-background.jpg");
+  height: 500px;
+  margin-top: 70px;
+}
 
+#copyright {
+  padding-left: 20px;
 }
