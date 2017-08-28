@@ -1,0 +1,35 @@
+/* ---------- Elements ---------- */
+
+html {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+header {
+  position: fixed;
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 70px;
+  border-bottom: 1px solid seashell;
+}
+
+nav a {
+  color: seashell;
+  text-decoration: underline;
+  padding: 0 10px;
+}
+
+/* ---------- Classes ---------- */
+
+
+
+/* ---------- IDs ---------- */
+
+#logo {
+  max-height: 50px;
+  padding: 5px 20px 10px 10px;
+}
