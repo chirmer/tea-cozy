@@ -13,6 +13,7 @@ header {
   max-height: 69px;
   border-bottom: 1px solid seashell;
   z-index: 5;
+  margin: -70px 0 0 -8px;
 }
 
 nav {
@@ -117,12 +118,12 @@ footer {
 
 #featured {
   max-width: 1000px;
+  margin-bottom: 70px;
 }
 
 #location {
   background-image: url("img/img-locations-background.jpg");
   height: 500px;
-  margin-top: 70px;
 }
 
 #copyright {
