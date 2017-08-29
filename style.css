@@ -13,7 +13,8 @@ header {
   max-height: 69px;
   border-bottom: 1px solid seashell;
   z-index: 5;
-  margin: -70px 0 0 -8px;
+  margin: -70px 0 0 -8px; /* Not sure why I need this. Shouldn't need it, but
+                             without it I have 70px margin above the nav bar. */
 }
 
 nav {
@@ -27,7 +28,6 @@ nav a {
 
 h1, h2, h4 {
   margin: 10px 0;
-  padding: 0;
 }
 
 footer {
@@ -101,7 +101,6 @@ footer {
 .location {
   margin: 15px 20px;
   max-width: 300px;
-  min-width: 295px;
 }
 
 /* ---------- IDs ---------- */
